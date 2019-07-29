@@ -34,6 +34,15 @@ export const countryDataSource = {
   ]
 };
 
+export const countryChartConfigs = {
+  type: "column2d",
+  renderAt: "country-revenue",
+  width: "100%",
+  height: 400,
+  dataFormat: "json",
+  dataSource: countryDataSource
+};
+
 export const monthlyDataSource = {
   chart: {
     // caption options
@@ -94,6 +103,15 @@ export const monthlyDataSource = {
   ]
 };
 
+export const monthlyChartConfigs = {
+  type: "spline",
+  renderAt: "monthly-revenue",
+  width: "100%",
+  height: 350,
+  dataFormat: "json",
+  dataSource: monthlyDataSource
+};
+
 export const productDataSource = {
   chart: {
     // caption options
@@ -122,4 +140,13 @@ export const productDataSource = {
       value: "1460000"
     }
   ]
+};
+
+export const productChartConfigs = {
+  type: "doughnut2d",
+  renderAt: "product-revenue",
+  width: "100%",
+  height: 350,
+  dataFormat: "json",
+  dataSource: productDataSource
 };
