@@ -1,0 +1,9 @@
+.chart-row {
+  margin-bottom: 15px;
+}
+
+.inline-chart {
+  display: inline-block;
+  width: 48%;
+  margin-left: 1%;
+}
