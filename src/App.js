@@ -4,13 +4,17 @@ import "./App.css";
 function App() {
   return (
     <Fragment>
-      <div class="chart-row">
-        <div id="country-revenue"></div>
+      <div className="chart-row">
+        <div id="country-revenue">country revenue chart here</div>
       </div>
 
-      <div class="chart-row">
-        <div id="monthly-revenue" class="inline-chart"></div>
-        <div id="product-revenue" class="inline-chart"></div>
+      <div className="chart-row">
+        <div id="monthly-revenue" className="inline-chart">
+          chart 2 here - spline
+        </div>
+        <div id="product-revenue" className="inline-chart">
+          chart 3 here - donut
+        </div>
       </div>
     </Fragment>
   );
